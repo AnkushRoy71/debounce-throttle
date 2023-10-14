@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debounce</title>
+</head>
+<script src="./index.js" defer></script>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    .container{
+        width: 50%;
+        height: 500px;
+        margin: 0 auto;
+        border: 1px solid black;
+        /* display: flex; */
+        align-items: start;
+        justify-content: center;
+    }
+
+    input{
+      margin: 0 auto;
+    }
+</style>
+<body>
+    <div class="container">
+        <input type="text" id="search">
+    </br>
+        <span>Debounce</span><p id="debounce"></p>
+    </br>
+        <span>Throttle</span><p id="throttle"></p>
+    </div>
+</body>
+</html>
